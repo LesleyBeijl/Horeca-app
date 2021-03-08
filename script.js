@@ -1,1 +1,1 @@
-alert("hallo");
+alert("Welkom bij Jacks Hutje!");
