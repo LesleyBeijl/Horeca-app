@@ -7,24 +7,28 @@ document.write("Als je klaar bent met bestellen type 'stop' in om te stoppen met
 //var drankje = prompt("Welke bestelling wilt u toevoegen?");
 
 function drankje(){
-	for (var i = 1; i < 10; i++){
 	
-	var drankje = prompt("Welk drankje wilt u bestellen?");
-								}
-					}
+	
+	var drankje = prompt("Welk drankje wilt u bestellen? Fris, Bier of Koffie?");
+								
+drankje = drankje.toLowerCase();
+if (drankje == "fris"){var fris = prompt("Cola of Sprite?");
+fris = fris.toLowerCase();
+if (fris == "cola"){document.write("Cola");} }				
+}
 
 function gerecht(){
-	for (var i = 1; i < 10; i++){
+	
 
-	var gerecht = prompt("Welk gerecht wilt u bestellen?");
+	var gerecht = prompt("Welk gerecht wilt u bestellen? Vlees, Vis of Vegetarisch?");
 								}
-					}	
+						
 
 function dessert(){
-	for (var i = 1; i < 10; i++){
-	var dessert = prompt("Welk dessert wilt u bestellen?");
+	
+	var dessert = prompt("Welk dessert wilt u bestellen? Ijs, Eten of nog een bakje Koffie?");
 								}
-					}
+					
 
 function klaar(){
 	var klaar = alert("Bedankt voor het bestellen bij Jacks Hutje!");
