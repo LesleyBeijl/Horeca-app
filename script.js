@@ -1,10 +1,9 @@
 alert("Welkom bij Jacks Hutje!");
-document.write("Als je klaar bent met bestellen type 'stop' in om te stoppen met de bestelling en af te ronden met betalen of nog iets anders bestellen");
+document.write("Als je klaar bent met bestellen type 'stop' in om te stoppen met de bestelling en af te ronden met betalen of om nog iets anders te bestellen");
 //function hoi(){
 	//document.write("Hallo wereld");}
 //hoi();
 
-//var drankje = prompt("Welke bestelling wilt u toevoegen?");
 
 function drankje(){
 	
@@ -13,8 +12,21 @@ function drankje(){
 								
 drankje = drankje.toLowerCase();
 if (drankje == "fris"){var fris = prompt("Cola of Sprite?");
+
 fris = fris.toLowerCase();
-if (fris == "cola"){document.write("Cola");} }				
+if (fris == "cola"){document.write("Cola");} 
+
+else if (fris == "sprite"){document.write("Sprite");}		}				
+
+if (drankje == "bier"){var bier = prompt("Heineken of Bavaria?");
+
+bier = bier.toLowerCase();
+if (bier == "heineken"){document.write("Heineken");}
+
+else if (bier == "bavaria"){document.write("Bavaria");}		}
+
+
+
 }
 
 function gerecht(){
