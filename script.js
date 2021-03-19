@@ -1,5 +1,5 @@
 alert("Welkom bij Jacks Hutje!");
-document.write("Als je klaar bent met bestellen type 'stop' in om te stoppen met de bestelling en af te ronden met betalen of om nog iets anders te bestellen");
+
 
 
 
